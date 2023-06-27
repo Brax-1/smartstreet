@@ -1,11 +1,11 @@
 services:
   - type: web
-    name: strapi
-    env: node
-    plan: starter
-    buildCommand: yarn install && yarn build
-    startCommand: rsync -a public/ /data/public/ && yarn start
-    healthCheckPath: /_health
+    # name: strapi
+    # env: node
+    # plan: starter
+    # buildCommand: yarn install && yarn build
+    # startCommand: rsync -a public/ /data/public/ && yarn start
+    # healthCheckPath: /_health
     # disk:
     #   name: strapi-data
     #   mountPath: /data
