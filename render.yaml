@@ -6,11 +6,10 @@ services:
     buildCommand: yarn install && yarn build
     startCommand: rsync -a public/ /data/public/ && yarn start
     healthCheckPath: /_health
-    autoDeploy: false
     disk:
       name: strapi-data
       mountPath: /data
-      sizeGB: 0.09
+      sizeGB: 1
     envVars:
       - key: NODE_VERSION
         value: ~16.20.1
