@@ -1,0 +1,68 @@
+.List{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 10px;
+    padding: 10px;
+}
+.List .GridList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.ListCard{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 5px 10px gray;
+}
+.ListCard .BackgroundImg{
+    width: 100%;
+    height: 100%;
+}
+.ListCard .Overlay{
+    background: linear-gradient(-20deg, black,transparent,transparent);
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    z-index: 1;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.ListCard .Overlay .Content{
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+.ListCard .ShowImg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+}
+.ListCard .CartBack{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background: white;
+    z-index: 50;
+}
+.ListCard .Overlay .Content .Title{
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.ListCard .Overlay .Content .Price{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+}

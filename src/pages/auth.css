@@ -1,0 +1,68 @@
+.Auth{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    min-height: 400px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.Auth .Backlay{
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+    background: url(../assets//background.jpeg);
+    background-repeat: no-repeat;
+    filter: brightness(0.3);
+    z-index: -1;
+    background-size: 100% 100%;
+}
+.Auth .Title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.Auth .Input{
+    background-color: #eff9ff;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 5px;
+}
+.Auth .Button{
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    &:active{
+        transform: scale(0.95);
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.Auth .Footer{
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.Auth .Footer .ToggleAuth{
+    color: orange;
+}
+.Auth .Error{
+    color: white;
+    width: 100%;
+    padding: 15px;
+    background: rgb(255, 128, 128);
+    border-radius: 5px;
+    margin-top: 20px;
+}

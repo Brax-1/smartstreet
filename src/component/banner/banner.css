@@ -1,0 +1,29 @@
+.Banner{
+    width: 100vw;
+    height: 400px;
+}
+.Banner .Image{
+    width: 100%;
+    height: 100%;
+}
+.Banner .Backdrop{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom,transparent, rgb(4, 185, 216));
+    position: absolute;
+    top: 0;
+}
+.Banner img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.7);
+}
+.Banner .LogoName{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}

@@ -1,0 +1,12 @@
+.Heading{
+    margin-top: 10px;
+    color: rgb(255, 174, 0);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Heading img{
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,161 @@
+.DetailComponent{
+    width: 100vw;
+    height: 100vh;
+}
+.DetailComponent img{
+    width: 100%;
+}
+.DetailComponent .Options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    box-shadow: 0 0 10px gray;
+}
+.DetailComponent .Options button{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    gap: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+.DetailComponent .Options button div{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+}
+.DetailComponent .Options button img{
+    width: 30px;
+    height: 30px;
+}
+.DetailComponent .Options .CartOption{
+    background: rgb(249, 242, 233);
+}
+.DetailComponent .Options .BookOption{
+    background: rgb(241, 249, 233);
+}
+.DetailComponent .Content{
+    padding: 10px;
+    padding-bottom: 100px;
+}
+.DetailComponent .Title{
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+}
+.DetailComponent .Price{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.DetailComponent .Price div{
+    font-family: 'Kanit', sans-serif;
+}
+.DetailComponent .Location{
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 10px;
+}
+.DetailComponent .Description{
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 20px;
+}
+.DetailComponent .Offerings div{
+    font-family: 'Kanit', sans-serif;
+}
+.DetailComponent .Offerings{
+    margin-bottom: 20px;
+}
+.DetailComponent .Offerings div:nth-child(1){
+    font-size: 20px;
+    color: orange;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.DetailComponent .HouseRules div{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+.DetailComponent .HouseRules img{
+    width: 30px;
+}
+.DetailComponent .Offerings img{
+    width: 30px;
+}
+.DetailComponent .HouseRules .RulesHead{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.DetailComponent .HouseRules div:nth-child(1){
+    font-size: 20px;
+    color: orange;
+    font-weight: 600;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.DetailComponent .HouseRules div:nth-child(2){
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.DetailComponent .Description{
+    font-family: 'Kanit', sans-serif;
+}
+.CheckoutOverlay{
+    position: fixed;
+    z-index: 2000;
+    background: rgba(0, 0, 0, 0.896);
+    width: 100vw;
+    backdrop-filter: blur(0.5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+.CheckoutOverlay input{
+    background-color: #eff9ff;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: calc(100vw - 44px);
+    border-radius: 5px;
+}
+.CheckoutOverlay .Confirm{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.CheckoutOverlay .Button{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.CheckoutOverlay button{
+    padding: 10px 30px;
+    border: none;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+}
+.CheckoutOverlay button:nth-child(1){
+    padding: 10px 30px;
+    border: none;
+    background: rgb(47, 161, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+}
